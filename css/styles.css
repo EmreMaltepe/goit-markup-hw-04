@@ -24,7 +24,8 @@ section{
 }
 :hover,
 :focus{
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition-property: color;
 }
 body {
   background-color: #ffffff;
@@ -92,6 +93,7 @@ header{
 .nav-menu :focus {
   color: #404bbf;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .nav-link{
@@ -118,7 +120,8 @@ header{
   background-color: #404bbf;
   transform: scaleX(0); /* Başlangıçta çizgi görünmez */
   transform-origin: left; /* Soldan başlayarak genişler */
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Animasyon süresi ve stili */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Animasyon süresi ve stili */
+  transition-property: color;
 }
 .active:hover::after {
   transform: scaleX(1); /* Hover sırasında çizgi görünür hale gelir */
@@ -139,7 +142,8 @@ header{
 .adres :hover,
 .adres :focus {
   color: #404bbf;
-  transition: text-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 .adres a{
   width: 153px;
@@ -192,11 +196,13 @@ header{
 }
 .order-button:hover{
   background-color:#404BBF;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 .order-button:focus{
   background-color:#404BBF;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 .section-two-div{
   margin: 0 auto;
@@ -296,14 +302,14 @@ text-align: center;
 .social-icon{
   width: 40px;
   height: 40px;
-  --color2:#4d5ae5;
+  fill:#4d5ae5;
 }
-
 .social-icon :hover,
 .social-icon :focus{
   --color2:#31d0aa;
-  transition: --color1 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  }
 
 .our-portofilo-cardset{
   display: flex;
@@ -349,7 +355,8 @@ text-align: center;
   }
   .port-item:hover{
     box-shadow: 0px 1px 6px #2e2f4216;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
   }
   .port-item{
     position: relative;
