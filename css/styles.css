@@ -193,7 +193,7 @@ header{
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition-property: color;
+  
 }
 .order-button:hover{
   background-color:#404BBF;
@@ -203,7 +203,7 @@ header{
 .order-button:focus{
   background-color:#404BBF;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  
 }
 .section-two-div{
   margin: 0 auto;
@@ -304,6 +304,7 @@ text-align: center;
   width: 40px;
   height: 40px;
   fill:#4d5ae5;
+  transition-property: var(--color2);
 }
 .social-icon :hover,
 .social-icon :focus{
