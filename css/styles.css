@@ -193,6 +193,7 @@ header{
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition-property: color;
   
 }
 .order-button:hover{
@@ -304,14 +305,12 @@ text-align: center;
   width: 40px;
   height: 40px;
   fill:#4d5ae5;
-  
+  transition-property: color;
 }
 .social-icon :hover,
 .social-icon :focus{
   --color2:#31d0aa;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
-  
   }
 
 .our-portofilo-cardset{
